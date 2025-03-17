@@ -13,16 +13,16 @@
 // console.log(console);
 // console.log();
 
-// // process - a global object that returns the information of the current process
-// console.log(process);
-// console.log();
+// process - a global object that returns the information of the current process
+console.log(process);
+console.log();
 
-// TextEncoder - encodes a text in UTF-8
-const encoder = new TextEncoder();
-const encodedText = encoder.encode("This text will be encoded.");
-console.log(encodedText);
+// // TextEncoder - encodes a text in UTF-8
+// const encoder = new TextEncoder();
+// const encodedText = encoder.encode("This text will be encoded.");
+// console.log(encodedText);
 
-// TextDecoder - decodes an encoded text
-const decoder = new TextDecoder();
-const decodedText = decoder.decode(encodedText);
-console.log(decodedText);
+// // TextDecoder - decodes an encoded text
+// const decoder = new TextDecoder();
+// const decodedText = decoder.decode(encodedText);
+// console.log(decodedText);
